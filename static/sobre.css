@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(rgba(0,0,0,0.7), transparent);
+    text-align: center;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    font-size:35px;
+    margin-top:25px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 5px 0;
+    display: inline-block;
+    margin: 15px 10px;
+    color: rgb(240, 14, 52);
+    font-weight: 1500;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: all 0.25s ease-in-out;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 5px black;
+
+}
+
+nav ul li a:hover{
+    border-bottom: 3px solid white;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+ background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section h1{
+    font-size: 70px;
+    color: white
+}
+
+
+section:nth-of-type(1){
+    background-image: url("/static/img/informatica.jpg");
+}
+section:nth-of-type(2){
+    background-image: url("/static/img/rio_parnaiba.jpeg");
+}
+section:nth-of-type(3){
+    background-image: url("/static/img/doar2.jpeg");
+}
+section:nth-of-type(4){
+    background-image: url("/static/img/recicle.jpeg");
+}
+.video{
+width:95%;
+height:500px;
+border-radius:10%;
+}
+
+.receita{
+width:40%;
+
+}
+img {
+border-radius:10%;
+}
+footer{
+text-align:center;
+color:blue;
+font-size:25px;
+}
