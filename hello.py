@@ -20,6 +20,10 @@ def curso_html():
 def curso_amb_html():
     return render_template('curso_ambiente.html')
 
+@app.route('/ebook')
+def ebook_html():
+    return render_template('ebook.html')
+
 # Rota com variável na URL
 @app.route('/usuario/<nome>')
 def usuario(nome):
